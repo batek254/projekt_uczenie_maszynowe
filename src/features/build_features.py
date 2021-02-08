@@ -52,3 +52,4 @@ if __name__ == '__main__':
     data_processed = treat_nan(data_processed, columns, change_from, change_to)
 
     data_processed.to_csv('data/processed/data_processed_nans.csv')
+    # TODO Sprawdzić czy faktycznie uzupełnia nans
